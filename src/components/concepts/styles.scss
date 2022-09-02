@@ -1,0 +1,73 @@
+.concepts {
+  table {
+    border-collapse: separate;
+
+    thead {
+      th.concepts-header {
+        .concepts-header-search {
+          width: 100%;
+        }
+
+
+        padding: 10px 14px;
+        background-color: var(--bs-gray-100);
+
+        @media (max-width: 768px){
+          font-size: 14px;
+        }
+
+        &:first-child {
+          width: 10%;
+        }
+
+        &:nth-child(2) {
+          width: 20%;
+        }
+
+        &:nth-child(3) {
+          width: 35%;
+        }
+
+        &:nth-child(4) {
+          width: 10%;
+        }
+
+        &:nth-child(5) {
+          width: 10%;
+        }
+
+        &:nth-child(6) {
+          width: 15%;
+        }
+      }
+    }
+
+    tbody {
+      tr:hover {
+        cursor: pointer;
+        background-color: var(--bs-gray-100);
+      }
+
+      td.concepts-body {
+        font-size: 14px;
+        padding: 10px 14px;
+
+        @media (max-width: 768px){
+          font-size: 13px;
+        }
+      }
+    }
+
+    tfoot {
+      td.concepts-footer {
+        background-color: var(--bs-gray-100);
+        border-radius: 0 0 calc(0.5rem * 0.75) calc(0.5rem * 0.75);
+      }
+    }
+  }
+
+  .concepts-page-input {
+    width: 5rem;
+    text-align: end;
+  }
+}

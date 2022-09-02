@@ -1,0 +1,19 @@
+body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.sidebar {
+  width: 190px;
+}
+
+@media (min-width: 576px) {
+  .content {
+    // Sidebar width plus 15px
+    margin-left: 205px;
+    min-height: 630px;
+  }
+}

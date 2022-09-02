@@ -1,0 +1,19 @@
+.file-input-wrapper {
+
+  .file-input-drop-area {
+    height: 125px;
+    width: 250px;
+    border-width: 2px !important;
+    border-style: dashed !important;
+
+    &.highlight {
+      border-color: var(--bs-gray-dark) !important;
+    }
+  }
+
+  .error {
+    color: var(--bs-red) !important;
+  }
+}
+
+

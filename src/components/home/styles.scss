@@ -1,0 +1,35 @@
+.nav-gallery {
+  .nav-item {
+    min-height: 160px;
+  }
+
+  @media (max-device-width : 380px) {
+    .nav-item {
+      min-height: 150px;
+    }
+  }
+
+  .nav-item:hover {
+    border-color: var(--hover-effect-color);
+    background-color: var(--hover-effect-color);
+  }
+
+  .nav-icon {
+    height: 32px;
+    width: 32px;
+  }
+
+  @media (max-device-width : 380px) {
+    .nav-item-title {
+      font-size: 1rem !important;
+    }
+
+    .nav-item-description {
+      font-size: 0.75rem;
+    }
+
+    .nav-item-link {
+      font-size: 0.75rem;
+    }
+  }
+}
